@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_manager:
                 Common.isManager = 3;
-                startActivity(new Intent(MainActivity.this, Manager.class));
+                startActivity(new Intent(MainActivity.this, Login.class));
                 break;
         }
     }
